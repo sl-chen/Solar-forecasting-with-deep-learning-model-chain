@@ -44,7 +44,9 @@ The used ground data is from SURFRAD stations (see the following table) with qua
 | NSRDB<sup>c</sup>  | Derived ground-level irradiance | Satellite-derived irradiance with a physical model | 2020|
 
 <sup>a</sup> Available at (https://gml.noaa.gov/grad/surfrad/), can be downloaded by SolarData [1].
+
 <sup>b</sup> Available at (https://registry.opendata.aws/noaa-goes/), can be download by [GOES-2-go](https://github.com/blaylockbk/goes2go).
+
 <sup>c</sup> Available at (https://nsrdb.nrel.gov/), can be downloaded by SolarData.
 
 For an example using the four strategies for three bands, please refer to [DRA_ci_calculation_4_strategies.ipynb](https://github.com/sl-chen/GHI-estimation-by-GOES-16/blob/main/DRA_ci_calculation_4_strategies.ipynb)
