@@ -35,7 +35,7 @@ The used ground data is from SURFRAD stations (see the following table) with qua
 |  SXF  |  43.73     | -96.92      |  473       |  UTC-6 |
 |  TBL  |  40.12     | -105.24     |  1689      |  UTC-7 |
 
-#### Strategies for dynamic range, upper and lower bounds determination
+#### A summary of the publicly available data
 
 | Data type | Description | Time period (year) |
 |:-----:|:---------: | :---------: | 
@@ -49,9 +49,12 @@ The used ground data is from SURFRAD stations (see the following table) with qua
 
 <sup>c</sup> Available at (https://nsrdb.nrel.gov/), can be downloaded by SolarData.
 
-For an example using the four strategies for three bands, please refer to [DRA_ci_calculation_4_strategies.ipynb](https://github.com/sl-chen/GHI-estimation-by-GOES-16/blob/main/DRA_ci_calculation_4_strategies.ipynb)
+#### Forecasting methods
 
-#### Cloud index (CI) to clear-sky index (CSI) methods
+The following figure shows the strucuture of deep learning models for GHI forecasting with different inputs.
+
+![image](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/figures/Method.PNG)
+
 Four methods to convert derived CI to CSI for GHI estimation.
 |Method|GHI calculation|
 |:-----:|:---------: |
