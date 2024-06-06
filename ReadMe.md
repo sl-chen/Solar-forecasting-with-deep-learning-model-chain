@@ -2,13 +2,26 @@
 
 This repository includes the data as well as example scripts for data processing and figure production for the research paper: [https://www.sciencedirect.com/science/article/pii/S0038092X22004236](https://www.sciencedirect.com/science/article/pii/S0196890424005399).
 
-The following figure shows the flowchart for GHI forecasting using spectral satellite images and deep learning model chain.
+The following figure shows the flowchart for GHI forecasting using spectral satellite images and deep learning model chain, the end-to-end deep learning model, and the hybrid physical deep learning model.
 
 ![image](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/figures/Flowchart.PNG)
 
 
 #### Data
 The satellite data of GOES-16 is downloaded via public available source, e.g., Amazon Web Services, for GOES-16, please refer to: https://docs.opendata.aws/noaa-goes16/cics-readme.html#accessing-goes-data-on-aws.
+There are 8 selected spectral bands used: C01, C03, C04, C05, C06, C07, C09, and C11.
+
+|Band|$\lambda$ [$\mu$m]|Center $\lambda$ [$\mu$m]|Resolution (km)|Type|Valid range|Scale factor|Add offset|
+|:-----:|:---------: | :---------: | :--------: |:------:| :------------: | :------------: | :------------: |
+|  1  |  0.45-0.49   | 0.47  | 1 | Near-Infrared | 0-2046  | 0.0707 | -4.5224  |
+|  3  |  0.846-0.885 | 0.865 | 1 | Near-Infrared | 0-1022  | 0.3769 | -20.2899 |
+|  4  |  1.371-1.386 | 1.378 | 2 | Near-Infrared | 0-2046  | 0.0707 | -4.5224  | 
+|  5  |  1.58-1.64   | 1.61  | 1 | Near-Infrared | 0-1022  | 0.0958 | -3.0596  |
+|  6  |  2.225-2.275 | 2.25  | 2 | Near-Infrared | 0-1022  | 0.0301 | -0.9610  |
+|  7  |  3.80-4.00   | 3.90  | 2 | Infrared      | 0-16382 | 0.0016 | -0.0376  |
+|  9  |  6.75-7.15   | 6.95  | 2 | Infrared      | 0-2046  | 0.0225 | -0.8236  |
+|  11 |  8.30-8.70   | 8.50  | 2 | Infrared      | 0-4094  | 0.0334 | -1.3022  |
+
 
 The used ground data is from SURFRAD stations (see the following table) with quality control.
 The snow-free period is obtained using the data from National Aeronautics and Space Administration (NASA) National Snow and Ice Data Center (NSIDC): https://nsidc.org/data/nsidc-0719/versions/1.  
