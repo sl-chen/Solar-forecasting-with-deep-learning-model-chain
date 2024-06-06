@@ -2,7 +2,7 @@
 
 This repository includes the data as well as example scripts for data processing and figure production for the research paper: [https://www.sciencedirect.com/science/article/pii/S0038092X22004236](https://www.sciencedirect.com/science/article/pii/S0196890424005399).
 
-The following figure shows the flowchart for GHI estimation using semi-emipirical satellite method with several clear-sky models.
+The following figure shows the flowchart for GHI forecasting using spectral satellite images and deep learning model chain.
 
 ![image](https://user-images.githubusercontent.com/54800388/187680737-70c8ddb3-ab49-487a-acc1-d84fc631fba0.png)
 
