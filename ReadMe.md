@@ -11,7 +11,7 @@ The following figure shows the flowchart for GHI forecasting using spectral sate
 The satellite data of GOES-16 is downloaded via public available source, e.g., Amazon Web Services, for GOES-16, please refer to: https://docs.opendata.aws/noaa-goes16/cics-readme.html#accessing-goes-data-on-aws.
 There are 8 selected spectral bands used: C01, C03, C04, C05, C06, C07, C09, and C11.
 
-|Band|$\lambda$ [$\mu$m]|Center $\lambda$ [$\mu$m]|Resolution (km)|Type|Valid range|Scale factor|Add offset|
+|Band|$\lambda$ [&mu m]|Center $\lambda$ [$\mu$m]|Resolution (km)|Type|Valid range|Scale factor|Add offset|
 |:-----:|:---------: | :---------: | :--------: |:------:| :------------: | :------------: | :------------: |
 |  1  |  0.45-0.49   | 0.47  | 1 | Near-Infrared | 0-2046  | 0.0707 | -4.5224  |
 |  3  |  0.846-0.885 | 0.865 | 1 | Near-Infrared | 0-1022  | 0.3769 | -20.2899 |
