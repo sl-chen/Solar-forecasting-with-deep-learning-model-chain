@@ -43,9 +43,7 @@ The used ground data is from SURFRAD stations (see the following table) with qua
 | GOES-16<sup>b</sup>  | Satellite measured radiance | Radiance of eight selected spectral bands | 2019, 2020|
 | NSRDB<sup>c</sup>  | Derived ground-level irradiance | Satellite-derived irradiance with a physical model | 2020|
 
-* Time window is used to determine the dynamic range, a moving time window means it moves with the time of interest,
-so the upper and lower bound will change. While the monthly fixed time window means it is fixed in the month of
-interest, so the upper and lower bounds remain constant in the month.
+a Available at \url{https://gml.noaa.gov/grad/surfrad/}, can be downloaded by SolarData~\cite{yang2018solardata}.
 
 For an example using the four strategies for three bands, please refer to [DRA_ci_calculation_4_strategies.ipynb](https://github.com/sl-chen/GHI-estimation-by-GOES-16/blob/main/DRA_ci_calculation_4_strategies.ipynb)
 
