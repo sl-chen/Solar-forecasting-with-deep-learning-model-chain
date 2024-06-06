@@ -39,9 +39,9 @@ The used ground data is from SURFRAD stations (see the following table) with qua
 
 | Data type | Description | Time period (year) |
 |:-----:|:---------: | :---------: | 
-| SURFRAD$\tnote{a}$  | Irradiance measurements   | On-site measurements of solar irradiance  | 2019, 2020| 
-| GOES-16\tnote{b}  | Satellite measured radiance | Radiance of eight selected spectral bands | 2019, 2020|
-| NSRDB\tnote{c}  | Derived ground-level irradiance | Satellite-derived irradiance with a physical model | 2020|
+| SURFRAD<sup>a</sup>  | Irradiance measurements   | On-site measurements of solar irradiance  | 2019, 2020| 
+| GOES-16<sup>b</sup>  | Satellite measured radiance | Radiance of eight selected spectral bands | 2019, 2020|
+| NSRDB<sup>c</sup>  | Derived ground-level irradiance | Satellite-derived irradiance with a physical model | 2020|
 
 * Time window is used to determine the dynamic range, a moving time window means it moves with the time of interest,
 so the upper and lower bound will change. While the monthly fixed time window means it is fixed in the month of
