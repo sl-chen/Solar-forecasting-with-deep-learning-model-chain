@@ -39,7 +39,7 @@ The used ground data is from SURFRAD stations (see the following table) with qua
 
 | Data type | Description | Time period (year) |
 |:-----:|:---------: | :---------: | 
-| SURFRAD\tnote{a}  | Irradiance measurements   | On-site measurements of solar irradiance  | 2019, 2020| 
+| SURFRAD$\tnote{a}$  | Irradiance measurements   | On-site measurements of solar irradiance  | 2019, 2020| 
 | GOES-16\tnote{b}  | Satellite measured radiance | Radiance of eight selected spectral bands | 2019, 2020|
 | NSRDB\tnote{c}  | Derived ground-level irradiance | Satellite-derived irradiance with a physical model | 2020|
 
