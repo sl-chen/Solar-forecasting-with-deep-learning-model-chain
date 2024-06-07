@@ -79,7 +79,7 @@ where $\mathbb{E}$ is the deep learning model to derive spatial GHI estimates of
 
 The spectral satellite data of GOES-16 for BON is available [here](https://drive.google.com/drive/folders/1oUjJ_2rKpEEG6TIbKOHX7C1zAueWnucN?usp=sharing).
 
-The NSRDB data for BON is available [here](https://drive.google.com/drive/folders/12n7YmZbkDdZkt_WcykwvgnRvsx6Eo-16?usp=sharing)
+The NSRDB data for BON is available [here](https://drive.google.com/drive/folders/12n7YmZbkDdZkt_WcykwvgnRvsx6Eo-16?usp=sharing), satellite-derived spatial GHI using deep learning can be found at [here](https://drive.google.com/drive/folders/1to2rdRhWoN1jdBqllqGgQE7dd6_m8zbW?usp=sharing).
 
 The notebook of the end-to-end deep learning model for satellite-based solar forecasting up to 3 hours is available [here](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/ghi_forecasting_bon_sat_3h.ipynb).
 
