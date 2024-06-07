@@ -73,7 +73,7 @@ The deep learning model chain is then formulated as:
 ```
 where $\mathbb{E}$ is the deep learning model to derive spatial GHI estimates of SAT-DL from spectral satellite measurements $\boldsymbol{x}$.
 
-The spectral satellite data of GOES-16 for BON is available at [here](https://drive.google.com/drive/folders/17TZG8Gvx9aX3OjYzguUcZ7s3EMFdsf1t?usp=sharing).
+The spectral satellite data of GOES-16 for BON is available at [here](https://drive.google.com/drive/folders/17TZG8Gvx9aX3OjYzguUcZ7s3EMFdsf1t?usp=sharing). The notebook of the end-to-end deep learning model for satellite-based solar forecasting up to 3 hours is available [here]()
 
 
 Four methods to convert derived CI to CSI for GHI estimation.
