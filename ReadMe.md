@@ -101,3 +101,6 @@ The forecast skills of SDL (the deep learning model chain), NS (the hybrid physi
 
 
 Note that the examples made here are only for the BON station. However, the results for other stations follows the same methods and procedure.
+
+#### References
+[1] Yang, D. (2018). SolarData: An R package for easy access of publicly available solar datasets. Solar Energy, 171, A3-A12.
