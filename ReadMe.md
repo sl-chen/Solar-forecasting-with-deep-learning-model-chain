@@ -55,7 +55,7 @@ The following figure shows an illustration of regional solar irradiance estimati
 
 ![image](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/figures/Region.PNG)
 
-The original deep learning model in [2] was developed for ground irradiance estimates at a single location, which is centered in the domain of satellite images with $11\times11$ pixels ((a) in the above figure). The target station can be anywhere as long as there are on-site irradiance measurements available. Following the same methodology, the target is expanded from one station to the $11\times11$ surrounding area with 121 locations ((b) in the above figure). Selected spectral satellite images of GOES-16 with the size of $21\times21$ pixels are used to obtain the GHI estimates for the whole region ($11\times11$ pixels) via the pre-trained deep learning model. For more details, please refer to [this link].
+The original deep learning model in [2] was developed for ground irradiance estimates at a single location, which is centered in the domain of satellite images with $11\times11$ pixels ((a) in the above figure). The target station can be anywhere as long as there are on-site irradiance measurements available. Following the same methodology, the target is expanded from one station to the $11\times11$ surrounding area with 121 locations ((b) in the above figure). Selected spectral satellite images of GOES-16 with the size of $21\times21$ pixels are used to obtain the GHI estimates for the whole region ($11\times11$ pixels) via the pre-trained deep learning model. For more details on solar irradiance estimation using spectal satellite images and deep learning, please refer to [2].
 
 #### Forecasting methods
 
@@ -106,4 +106,5 @@ Note that the examples made here are only for the BON station. However, the resu
 
 #### References
 [1] Yang, D. (2018). SolarData: An R package for easy access of publicly available solar datasets. Solar Energy, 171, A3-A12.
+
 [2] Chen, S., Li, C., Xie, Y., & Li, M. (2023). Global and direct solar irradiance estimation using deep learning and selected spectral satellite images. Applied Energy, 352, 121979.
