@@ -106,3 +106,4 @@ Note that the examples made here are only for the BON station. However, the resu
 
 #### References
 [1] Yang, D. (2018). SolarData: An R package for easy access of publicly available solar datasets. Solar Energy, 171, A3-A12.
+[2] Chen, S., Li, C., Xie, Y., & Li, M. (2023). Global and direct solar irradiance estimation using deep learning and selected spectral satellite images. Applied Energy, 352, 121979.
