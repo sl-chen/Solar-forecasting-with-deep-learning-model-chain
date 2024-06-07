@@ -56,9 +56,9 @@ The following figure shows the strucuture of deep learning models for GHI foreca
 ![image](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/figures/Method.PNG)
 
 The deep learning model $\mathbb{F}$ can produce multiple CSI forecasts (multiple-output model) with forecast horizons ($\Delta t$) up to 180 minutes (i.e., 15, 30, 45, 60, 90, 120, 150, and 180-minute), which can be formulated as,
-\begin{equation*}
-    \hat{I}_{t_0+15}, \hat{I}_{t_0+30}, ..., \hat{I}_{t_0+180} = \mathbb{F}({\boldsymbol{x}_{t_0}, \boldsymbol{x}_{t_0-5}, ..., \boldsymbol{x}_{t_0-60}})
-\end{equation*}
+
+$\hat{I}_{t_0+15}, \hat{I}_{t_0+30}, ..., \hat{I}_{t_0+180} = \mathbb{F}({\boldsymbol{x}_{t_0}, \boldsymbol{x}_{t_0-5}, ..., \boldsymbol{x}_{t_0-60}})$
+
 where $\hat{I}$ denotes the CSI forecast,
 
 Four methods to convert derived CI to CSI for GHI estimation.
