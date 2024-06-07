@@ -51,7 +51,7 @@ The used ground data is from SURFRAD stations (see the following table) with qua
 
 #### Satellite-derived spatial GHI with deep learning
 
-
+![image](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/figures/Region.PNG)
 
 #### Forecasting methods
 
