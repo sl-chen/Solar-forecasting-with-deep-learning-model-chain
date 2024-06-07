@@ -49,6 +49,10 @@ The used ground data is from SURFRAD stations (see the following table) with qua
 
 <sup>c</sup> Available at (https://nsrdb.nrel.gov/), can be downloaded by SolarData.
 
+#### Satellite-derived spatial GHI with deep learning
+
+
+
 #### Forecasting methods
 
 The following figure shows the strucuture of deep learning models for GHI forecasting with different inputs.
