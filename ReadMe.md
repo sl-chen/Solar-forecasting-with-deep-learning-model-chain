@@ -59,8 +59,7 @@ The deep learning model $\mathbb{F}$ can produce multiple CSI forecasts (multipl
 ```math
 \hat{I}_{t_0+15}, \hat{I}_{t_0+30}, ..., \hat{I}_{t_0+180} = \mathbb{F}({\boldsymbol{x}_{t_0}, \boldsymbol{x}_{t_0-5}, ..., \boldsymbol{x}_{t_0-60}})
 ```
-
-where $\hat{I}$ denotes the CSI forecast,
+where $\hat{I}$ denotes the CSI forecast, $\boldsymbol{x}$ represents the spatio-temporal spectral satellite measurements.
 
 Four methods to convert derived CI to CSI for GHI estimation.
 |Method|GHI calculation|
