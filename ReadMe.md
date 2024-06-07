@@ -90,6 +90,8 @@ The deep learning model using satellite-derived spatial GHI estimates (with a pr
 
 #### Results
 
+The forecast skills of SDL (the deep learning model chain), NS (the hybrid physical deep learning model), and SAT (the end-to-end deep learning model) are shown in the following figure for all the SURFRAD stations.
+
 ![image](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/figures/Skill.PNG)
 
 
