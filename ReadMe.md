@@ -51,6 +51,8 @@ The used ground data is from SURFRAD stations (see the following table) with qua
 
 #### Satellite-derived spatial GHI with deep learning
 
+The following figure shows an illustration of regional solar irradiance estimations for TBL station using spectral satellite images. (a) The target station and $11\times11$ pixel grid of satellite images for single-station solar irradiance estimation. (b) The target station with 121 surrounding locations and the domain of used spectral satellite images for regional solar irradiance estimation.
+
 ![image](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/figures/Region.PNG)
 
 #### Forecasting methods
