@@ -77,7 +77,9 @@ The spectral satellite data of GOES-16 for BON is available at [here](https://dr
 
 The notebook of the end-to-end deep learning model for satellite-based solar forecasting up to 3 hours is available [here](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/ghi_forecasting_bon_sat_3h.ipynb).
 
-The notebook of the end-to-end deep learning model for satellite-based solar forecasting up to 3 hours is available [here](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/ghi_forecasting_bon_sat_3h.ipynb).
+The notebook of the hybrid physical deep learning model is available [here](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/ghi_forecasting_bon_nsrdb-3h.ipynb).
+
+The deep learning model using satellite-derived spatial GHI estimates (with a pre-trained deep learning model) thus forms a deep learning model chain, the notebook is available [here](https://github.com/sl-chen/Solar-forecasting-with-deep-learning-model-chain/blob/main/ghi_forecasting_bon_sat-dl-3h.ipynb)
 
 
 Four methods to convert derived CI to CSI for GHI estimation.
